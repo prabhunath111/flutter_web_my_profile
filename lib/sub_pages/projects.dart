@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web/sub_pages/experience.dart';
+// ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html;
 
 class Projects extends StatelessWidget {

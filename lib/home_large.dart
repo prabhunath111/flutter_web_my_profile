@@ -7,7 +7,6 @@ import 'package:flutter_web/sub_pages/courses.dart';
 import 'package:flutter_web/sub_pages/education.dart';
 import 'package:flutter_web/sub_pages/experience.dart';
 import 'package:flutter_web/sub_pages/projects.dart';
-
 import 'constants/constants.dart';
 
 class HomeLarge extends StatelessWidget {
@@ -51,9 +50,9 @@ class HomeLarge extends StatelessWidget {
             AboutMe(),
             Experience(),
             Projects(),
+            Courses(),
             Achievements(),
             Education(),
-            Courses(),
             ContactMe()
           ],
         ),
