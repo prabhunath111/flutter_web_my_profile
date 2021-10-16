@@ -23,11 +23,23 @@ class Home extends StatelessWidget {
   }
 
   Widget homeSmall() {
-    return Scaffold();
+    return Scaffold(
+      body: Center(
+        child: Text(
+          "For this screen size page will be available soon"
+        ),
+      ),
+    );
   }
 
   Widget homeMedium() {
-    return Scaffold();
+    return Scaffold(
+      body: Center(
+        child: Text(
+            "For this screen size page will be available soon"
+        ),
+      ),
+    );
   }
 
   Widget homeLarge() {

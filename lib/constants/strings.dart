@@ -1,0 +1,1 @@
+const String ABOUT_ME = "I am always ready to learn, Enthusiastic, Passionate about learn new thing and exploring new skills\nPassionate to take up new opportunity and challenges\n\nWorked on Flutter, nodeJS, mongoDB, Firebase\nI am able to design  mobile application very fast";

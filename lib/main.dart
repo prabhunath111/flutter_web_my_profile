@@ -25,8 +25,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Prabhu Nath Tiwary',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.teal,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        fontFamily: 'Poppins'
       ),
 
       home: MyHomePage(title: 'Flutter Demo Home Page'),

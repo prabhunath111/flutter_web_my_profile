@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'dart:js' as js;
+import 'package:flutter_web/constants/urls.dart';
 
 class ContactMe extends StatelessWidget {
   const ContactMe({Key? key}) : super(key: key);
@@ -22,7 +24,9 @@ class ContactMe extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12)),
           ),
           InkWell(
-              onTap: () {},
+              onTap: () {
+                js.context.callMethod('open', [FB_URL]);
+              },
               onHover: (e) {},
               child: Icon(
                 Icons.facebook,
@@ -30,7 +34,9 @@ class ContactMe extends StatelessWidget {
                 size: 55,
               )),
           InkWell(
-            onTap: () {},
+            onTap: () {
+              js.context.callMethod('open', [INSTA]);
+            },
             onHover: (e) {},
             child: Image.asset(
               'instagram.png',
@@ -40,7 +46,9 @@ class ContactMe extends StatelessWidget {
             ),
           ),
           InkWell(
-            onTap: () {},
+            onTap: () {
+              js.context.callMethod('open', [TWTR_URL]);
+            },
             onHover: (e) {},
             child: Image.asset(
               'twitter.png',
@@ -50,7 +58,9 @@ class ContactMe extends StatelessWidget {
             ),
           ),
           InkWell(
-            onTap: () {},
+            onTap: () {
+              js.context.callMethod('open', [LNKDIN_URL]);
+            },
             onHover: (e) {},
             child: Image.asset(
               'linkedin.png',

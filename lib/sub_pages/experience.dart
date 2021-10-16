@@ -56,12 +56,8 @@ class Experience extends StatelessWidget {
               Text(
                 'Flutter Developer\nResponsive apps, Getx and provider StateManagement\nsocket, Google map\nNodeJs, mongoDB, Firebase\nFirebase Auth, Firestore, Firestorage\nReactJS',
                 textAlign: TextAlign.center,
-                style: TextStyle(
-                    color: Colors.white, letterSpacing: 1.2, height: 1.3),
-              ),
-              SizedBox(
-                height: 20,
-              ),
+                style: TextStyle(color: Colors.white, letterSpacing: 1.2, height: 1.3),),
+              SizedBox(height: 20),
               Text(
                 '15 march 2021 - Present',
                 textAlign: TextAlign.center,
